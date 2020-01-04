@@ -1,5 +1,10 @@
 
 spring:
+  rabbitmq:
+    host: 192.168.64.140
+    port: 5672
+    username: admin
+    password: admin
   application:
     name: item-service
   cloud:
